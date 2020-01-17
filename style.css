@@ -1,0 +1,45 @@
+.navbar{
+    display: flex;
+    background-color: darkorange;
+    justify-content: space-around;
+}
+ 
+.content {
+    display: flex;
+    background-color: blanchedalmond;
+    flex-flow: row wrap;
+    align-items: flex-end;
+    justify-content: center;
+ 
+}
+ 
+.news{
+    width: 30%;
+}
+ 
+h1, h1+p, .navbar p{
+    text-align: center;
+ 
+}
+ 
+.content h1,p{
+    display: block;
+    width: 100%;
+}
+
+ 
+
+
+#breaking h3{
+    
+     font-size: 300%; 
+ }
+#breaking{
+
+ 
+
+    order: -1;
+
+ 
+
+}
